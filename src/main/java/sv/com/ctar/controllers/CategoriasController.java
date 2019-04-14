@@ -11,9 +11,11 @@ import sv.com.ctar.models.services.ICategoriasService;
 
 @RestController
 @RequestMapping("/ctar/api/v1/Categoria")
-public class CategoriaController {
+public class CategoriasController {
+	
 	@Autowired
 	private ICategoriasService categoriasService;
+	
 	@RequestMapping ("")
 	private List<Categorias> findAll()
 	{

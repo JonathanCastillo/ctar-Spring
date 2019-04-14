@@ -5,10 +5,12 @@ import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import sv.com.ctar.models.dao.IProductosDao;
 import sv.com.ctar.models.entities.Productos;
 
+@Service
 public class ProductosServiceImpl implements IProductosService {
 	@Autowired
 	private IProductosDao productosDao;

@@ -12,18 +12,14 @@ public class Categorias {
 	
 	@Id
 	private int Id_Categoria;
-	@Column(name="Id_Categoria")
 	@NotEmpty
 	private String Nombre;
-	@Column(name="Nombre")
 	@NotEmpty
 	private String Imagen;
-	@Column(name="Imagen")
 	@NotEmpty
 	private String Descripcion;
 	@NotEmpty
 	private int Estado;
-	
 	@Column(name = "Id_Categoria", nullable = false)
 	public int getId_Categoria() {
 		return Id_Categoria;

@@ -10,7 +10,7 @@ import sv.com.ctar.models.dao.ICategoriasDao;
 import sv.com.ctar.models.entities.Categorias;
 
 @Service
-public class CategoriasServiceImpl implements ICategoriasService{
+public class CategoriasServiceImpl2 implements ICategoriasService{
 	
 	@Autowired
 	private ICategoriasDao categoriasDao;
