@@ -10,7 +10,7 @@ import sv.com.ctar.models.entities.Categorias;
 import sv.com.ctar.models.services.ICategoriasService;
 
 @RestController
-@RequestMapping("/ctar/api/v1/Categoria")
+@RequestMapping("/ctar/api/v1/Categorias")
 public class CategoriasController {
 	
 	@Autowired

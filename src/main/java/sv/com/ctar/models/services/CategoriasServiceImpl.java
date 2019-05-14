@@ -2,7 +2,7 @@ package sv.com.ctar.models.services;
 
 import java.util.List;
 
-import org.jvnet.hk2.annotations.Service;
+import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,10 +35,12 @@ public class CategoriasServiceImpl implements ICategoriasService{
 	{
 		categoriasDao.save(categorias);
 	}
+	
 	@Override
 	@Transactional
 	public void delete(Long id) 
 	{
 		categoriasDao.deleteById(id);
 	}
+	
 }

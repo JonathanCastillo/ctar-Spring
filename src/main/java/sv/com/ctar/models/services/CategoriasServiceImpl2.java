@@ -35,6 +35,7 @@ public class CategoriasServiceImpl2 implements ICategoriasService{
 	{
 		categoriasDao.save(categorias);
 	}
+	
 	@Override
 	@Transactional
 	public void delete(Long id) 
